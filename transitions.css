@@ -1,0 +1,23 @@
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 50, 58);
+    background-color: aqua;
+    transition-property: all;
+    transition-duration:2s ;
+}
+
+.box:hover{
+    background-color: rgb(180, 18, 35);
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    font-size: 50px;
+
+}
